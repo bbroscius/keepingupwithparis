@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <p style=
+     "position: 
+      absolute; 
+      top: 30px; 
+      left: 390px; 
+      font-size: 22px; 
+      color: #D94F70;;">
+    des quartiers pour se <br/> promener, des passages<br/> pour faire du shopping,<br/> des musées à apprécier,<br/> des merveilles dans<br/> chaque coin sombre - <br/>la beauté dans <br/>chaque ciel clair.<br/> j'ai tout🇫🇷🇫🇷🇫🇷
+</p>
+  </head>
+<head>
+   <p style=
+     "position: 
+      absolute; 
+      top:810px; 
+      left:60px; 
+      font-size: 30px; 
+      color: grey;">
+    ➊ J'ai plus de 2000 ans <br/>➋ Le pain est ma passion <br> ➌ Je suis photogénique,<br> bien sûr <br>
+  </p>
+
+  <body>
+    <title>Photo Box</title>
+    <style>
+        body {
+            height: 100vh;
+        }
+        .photo-box {
+            width: 350px;
+            height: 100vh;
+            border: 7px solid #FF69B4;
+            position: relative
+        }
+        .photo-box img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            
+        }
+        .small-photo-box {
+            width: 125px;
+            height: 250px;
+            border: 8px solid white;
+            background-color: #FFB6C1;
+            position: absolute;
+            top: 4%;
+            left: 5%;
+        }
+        .small-photo-box img {
+            width: 100%;
+            height: 100%;
+        }
+        .text-overlay {
+            position: absolute;
+            top: 50px;
+            right: 6px;
+            color: white;
+            font-size: 32px;
+            font-weight: bold;
+            padding: 10px;
+        }
+       .video-box {
+            width: 86%;
+            height: 150px; 
+            position: absolute;
+            top: 45%; 
+            left: 6%; 
+            border: 5px solid pink;
+        }
+        .video-box video {
+            width: 100%;
+            height: 100%;
+        }
+       .second-small-photo-box {
+            width: 189px;
+            height: 180px;
+            background-color: #FFB6C1;
+            position: absolute;
+            bottom: 5%; 
+            left: 40%;
+      }
+        .second-small-photo-box img {
+            width: 100%;
+            height: 100%;
+        }
+      .text-overlay-second {
+        position: absolute;
+            bottom: 2%; 
+            left: 8%; 
+            color: white;
+            font-size: 30px;
+            font-weight: bold;
+            padding: 10px;
+      }
+        .photo-box-right {
+            width: 475px;
+            height: 300px;
+            border: 7px solid #3498db;
+            position: absolute;
+            top: 20px;
+            left:600px;
+            z-index: 2;
+        }
+      .photo-box-right img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+      .photo-box-right-2 {
+            width: 450px;
+            height: 290px;
+            border: 7px solid pink;
+            position: absolute;
+            top: 300px; 
+            left: 410px;
+            z-index: 3;
+        }
+        .photo-box-right-2 img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+      .photo-box-right-3 {
+            width: 200px;
+            height: 310px;
+            border: 7px solid #FF69B4;
+            position: absolute;
+            top: 350px; 
+            left: 900px;
+            z-index: 4;
+        }
+        .photo-box-right-3 img {
+            width: 109%;
+            height: 105%;
+            object-fit: cover;
+      }
+      .photo-box-right-4 {
+            width: 200px;
+            height: 290px;
+            border: 7px;
+            position: absolute;
+            top: 600px; 
+            left: 350px;
+            z-index: 3;
+        }
+        .photo-box-right-4 img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+      }
+      .video-box-2 {
+            width: 500px;
+            height: 300px;
+            border: 10px solid black;
+            position: absolute;
+            top: 300px; 
+            left: 400px;
+            z-index: 3;
+        }
+        .video-box-2 iframe {
+            width: 100%;
+            height: 100%;
+        }
+      .photo-box-right-5 {
+          width: 260px;
+          height: 300px;
+          border: 6px solid #3498db;
+          position: absolute;
+          top: 630px; 
+          left: 380px;
+          z-index: 5;
+      }
+      .photo-box-right-5 img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+      }
+       .photo-box-right-6 {
+          width: 390px;
+          height: 260px;
+          border: 6px solid grey;
+          position: absolute;
+          top: 640px; 
+          left: 670px;
+          z-index: 3;
+      }
+      .photo-box-right-6 img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+      }
+       .photo-box-right-7 {
+          width: 390px;
+          height: 260px;
+          border: 12px solid pink;
+          position: absolute;
+          top: 890px; 
+          left: 500px;
+          z-index: 3;
+      }
+      .photo-box-right-7 img {
+          width: 110%;
+          height: 110%;
+          object-fit: cover;
+      }
+        .text-overlay-third {
+            position: absolute;
+            top: 50px;
+            right: 6px;
+            color: black;
+            font-size: 32px;
+            font-weight: bold;
+            padding: 10px;
+      }
+      .circular-image {
+        position: absolute;
+        left: 985px;
+        width: 140px; 
+        height: 140px;
+        border-radius: 50%;
+        overflow: hidden;
+        border: 6px solid pink;
+        z-index: 6;
+      }
+    .circular-image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      
+.circular-image-2 {
+        position: absolute;
+        top: 980px;
+        left: 350px;
+        width: 200px; 
+        height: 200px;
+        border-radius: 50%;
+        overflow: hidden;
+        border: 6px solid #FF69B4;
+        z-index: 6;
+      }
+    .circular-image-2 img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      .follow-button {
+    position: fixed;
+    bottom: 80px;
+    right: 30px;
+    background-color: blue;
+    padding: 18px;
+    border-radius: 15px;
+    z-index:7;
+    }
+    </style>
+    <style>
+    body { 
+    background-color:#FFF5E1;
+      }
+    </style>
+  </body>
+    </head>
+<body>
+  <div class="circular-image">
+    <img src="https://media.wired.com/photos/5954657538978176dacc5b22/master/w_2240,c_limit/peaceforparis-featured.jpg" alt="Paris Logo/Profile Picture">
+</div> 
+  <div class="circular-image-2">
+    <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExaTljMTFqMWN0b2puMDJ6ODAxdDB3OW9lcmg3aDg3am5lMGVsMzJ0ayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/jhrXVlkAXYVFRG3E8J/giphy.gif" alt="Paris at Night">
+</div>
+  <div class="follow-button">
+    <form action="https://paris.com/">
+        <input type="submit" value="Keep Up">
+    </form>
+</div>
+  <div class="photo-box">
+       <div class="text-overlay">bonjour - <br> bienvenue <br> dans la <br> ville <br> de l'amour!
+      </div>
+        <div class="small-photo-box">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/8/85/Tour_Eiffel_Wikimedia_Commons_%28cropped%29.jpg" alt="Eiffel Tower">
+        </div>
+        <img src="https://cdn.britannica.com/36/135436-050-ED1D0FCE/skyline-Eiffel-Tower-France-Paris.jpg" alt="Aerial View of Paris">
+      <div class="second-small-photo-box">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/5/5a/Portrait_of_Michel_de_Montaigne%2C_circa_unknown.jpg">
+        </div>
+       <div class="text-overlay-second"> un monde <br/> d'écrivains, <br/> d'artistes, <br/> et de beauté - <br/> uniquement <br/> à Paris
+      </div>
+      <div class="photo-box-right">
+        <img src="https://www.junot.fr/upload/images/image_block_images/6530fdd0c1a1a5.94623904_rue_des_francs_bourgeois_final_mg_7519_copie.webp" alt="Le Marais Street in Paris">
+    </div>
+      <div class="photo-box-right-2">
+        <img src="https://joinusinfrance.com/wp-content/uploads/2014/08/1600x1200-Covered-Passages-Panorama-TINY.jpg" alt="Paris Passages">
+    </div>
+       <div class="photo-box-right-3">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/b/bf/Victoire_de_Samothrace_-_Musee_du_Louvre_-_20190812.jpg" alt="The Winged Victory Statue in The Louvre">
+    </div>
+      
+    <div class="photo-box-right-5">
+      <img src="https://assets.maisonette.com/lg_paris_sq_6_58287a8d46.jpeg" alt="kids playing with bubbles outside the Louvre">
+      </div>
+      <div class="photo-box-right-6">
+      <img src="https://images.saymedia-content.com/.image/c_limit%2Ccs_srgb%2Cq_auto:eco%2Cw_612/MTk1MjExNTgwNTA0NTQ5MDkw/montmartre-the-love-found-casts-a-glorious-shadow-over-paris.webp" alt="lockets on fence at Sacre Couer">
+      </div>
+       <div class="photo-box-right-7">
+      <img src="https://img.olympics.com/images/image/private/t_s_16_9_g_auto/t_s_w2440/f_auto/primary/x5z6bm4phzraok3rwfzl" alt="olympic rings on eiffel tower">
+      </div>
+      <div class="video-box">
+            <iframe src="https://www.youtube.com/embed/nYnKWlHn6qM?si=u6CgeD1qTEbssaIP">
+        </iframe>
+        </div>
+      <div class="video-box-2">
+            <iframe src="https://www.youtube.com/embed/2jCMYLhwCws?si=HmBKN8Ka2sP5cWPi"></iframe>
+        </div>
+
+    </div>
+</body>
